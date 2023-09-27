@@ -6,6 +6,8 @@ Chez moi : essaie des commandes vues en cours, mais j'ai oublié de faire l'exer
 
 27/09 - Deuxième cours
 A quoi sert la commande tree ? 
+git commit ne fonctionne pass, il me demande de dire qui je suis. Même en faisant git config --global user.name "Débora" il me redemande à chaque fois. J'ai essayé avec le mail ça fonctionne.
+Comment on retourne en arrière sur l'arborescence ? Parfois j'y arrive avec cd ../nomdudossier mais des fois ça marche pas :( Uupdate : faut juste mettre cd ../ haha
 
 A faire :
 - m'entraîner sur les chemins relatifs et absolus
