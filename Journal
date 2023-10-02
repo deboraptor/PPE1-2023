@@ -24,4 +24,4 @@ donc je supprime mes clé et je recommence
 - découverte de ls -a
 - les commandes avec git ne fonctionnent pas : fatal: not a git repository (or any of the parent directories): .git -> j'essaie de comprendre pourquoi 
 Update : il faut être dans le dossier sinon ça marche pas
-
+- test de clone de mon GitHub sur ma machine et test de git add / git commit 
