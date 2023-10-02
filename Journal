@@ -20,4 +20,6 @@ Chez moi :
 - j'essaie de refaire ce qu'on a vu en cours et je me rends compte que j'ai pas sauvegardé ma clé dans mon ./ssh (et que je l'avais mise dans un dossier sur mon bureau) 
 donc je supprime mes clé et je recommence
 - découverte de ls -a
+- les commandes avec git ne fonctionnent pas : fatal: not a git repository (or any of the parent directories): .git -> j'essaie de comprendre pourquoi 
+Update : il faut être dans le dossier sinon ça marche pas
 
