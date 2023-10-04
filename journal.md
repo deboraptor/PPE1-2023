@@ -27,3 +27,5 @@ donc je supprime mes clé et je recommence
 Update : il faut être dans le dossier sinon ça marche pas
 - test de clone de mon GitHub sur ma machine et test de git add / git commit 
 Update : concluant ! 
+
+## je suis destiné à être détruit :((
