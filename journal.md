@@ -1,14 +1,12 @@
 # Journal de bord du projet encadré
-## Création du tag, je fais nano Journal et j'édite depuis mon terminal 
-
-20/09 -  Premier cours
+## 20/09 -  Premier cours
 Création du compte GitHub. 
 Premières manipulations sur le terminal. 
 
 Chez moi : 
 - essai des commandes vues en cours, mais j'ai oublié de faire l'exercice...
 
-27/09 - Deuxième cours
+## 27/09 - Deuxième cours
 A quoi sert la commande tree ? 
 git commit ne fonctionne pas, il me demande de dire qui je suis. Même en faisant git config --global user.name "Débora" il me redemande à chaque fois. J'ai essayé avec le mail ça fonctionne.
 Comment on retourne en arrière sur l'arborescence ? Parfois j'y arrive avec cd ../nomdudossier mais des fois ça marche pas :( Update : faut juste mettre cd ../ haha
@@ -26,9 +24,8 @@ donc je supprime mes clé et je recommence
 - les commandes avec git ne fonctionnent pas : fatal: not a git repository (or any of the parent directories): .git -> j'essaie de comprendre pourquoi 
 Update : il faut être dans le dossier sinon ça marche pas
 - test de clone de mon GitHub sur ma machine et test de git add / git commit 
-Update : concluant ! 
+Update : concluant !
+- Création du tag, je fais nano Journal et j'édite depuis mon terminal 
 
-## je suis destiné à être détruit :((
-
-04/10 - Troisième cours
-Je fais l'exercice de la sémance 3
+## 04/10 - Troisième cours
+Je fais l'exercice de la séance 3
