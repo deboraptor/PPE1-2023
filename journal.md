@@ -29,3 +29,6 @@ Update : il faut être dans le dossier sinon ça marche pas
 Update : concluant ! 
 
 ## je suis destiné à être détruit :((
+
+04/10 - Troisième cours
+Je fais l'exercice de la sémance 3
