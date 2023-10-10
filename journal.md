@@ -37,9 +37,7 @@ le commit intitulé "Séance 3" mais à chaque fois, même quand je met le numé
 c'est uniquement le dernier commit, soit "Séance 3" qui se supprime tout en gardant le commit "I AM ERROR". J'ai 
 décidé de continuer les exercices après avoir discuté avec d'autres camarades qui me disaient que c'était bien ça
 qu'il fallait faire.
-
-
-J’essaie de faire l’exercice 2 : j’ai bien créé le fichier oups.md et j’ai fait un commit, 
+- J’essaie de faire l’exercice 2 : j’ai bien créé le fichier oups.md et j’ai fait un commit, 
 cependant en faisant mon deuxième commit j’ai eu un message d'erreur qui m'indiquait de 
 faire un push avant de faire un autre commit. J’ai donc push avant de vouloir faire à nouveau 
 un commit mais ça me disait la même chose : faire un push. Peut-être que je n’aurais pas dû 
@@ -49,10 +47,7 @@ avec un message d’erreur, et en refaisant push ça a fonctionné à ce moment-
 malgré le message d’erreur mes log étaient bonnes et en vérifiant avec cat mes deux 
 fichiers étaient à la bonne version aussi. Ensuite, j’ai voulu créer un tag mais la console 
 m’indique que je ne suis pas dans la même branche donc j’essaie de tout régler.
-
-Le problème c’est qu'avec mon problème pour l’exercice 1 mon commit a toujours pour nom “I AM ERROR”
-
-Voici ce que j’avais écrit sur mon fichier “oups.md”
-
-blablabla je suis erreur
-et moi aussi blablabla
+- Le problème c’est qu'avec mon problème pour l’exercice 1 mon commit a toujours pour nom “I AM ERROR”
+- Voici ce que j’avais écrit sur mon fichier “oups.md”
+"blablabla je suis erreur
+et moi aussi blablabla"
