@@ -1,12 +1,12 @@
 # Journal de bord du projet encadré
-## 20/09 -  Premier cours
+## 20/09 -  Cours 1
 Création du compte GitHub. 
 Premières manipulations sur le terminal. 
 
 Chez moi : 
 - essai des commandes vues en cours, mais j'ai oublié de faire l'exercice...
 
-## 27/09 - Deuxième cours
+## 27/09 - Cours 2
 A quoi sert la commande tree ? 
 git commit ne fonctionne pas, il me demande de dire qui je suis. Même en faisant git config --global user.name "Débora" il me redemande à chaque fois. J'ai essayé avec le mail ça fonctionne.
 Comment on retourne en arrière sur l'arborescence ? Parfois j'y arrive avec cd ../nomdudossier mais des fois ça marche pas :( Update : faut juste mettre cd ../ haha
@@ -27,7 +27,15 @@ Update : il faut être dans le dossier sinon ça marche pas
 Update : concluant !
 - Création du tag, je fais nano Journal et j'édite depuis mon terminal 
 
-## 04/10 - Troisième cours
-Je fais l'exercice de la séance 3
+## 04/10 - Cours 3
+Je refais l'exercice de la séance 3 parce que je n'y avais pas réussi en cours. 
 
-## Je suis destiné à être détruit :((	
+Chez moi :
+- j'ai refait l'exercice 1 de la séance 3 et je ne suis pas sûre de comprendre la consigne. J'ai bien créé deux commits, 
+un qui s'appelle "I AM ERROR" et un qui s'appelle "Séance 3" et j'ai essayé de supprimé "I AM ERROR" tout en gardant 
+le commit intitulé "Séance 3" mais à chaque fois, même quand je met le numéro SHA qui correspond à "I AM ERROR", 
+c'est uniquement le dernier commit, soit "Séance 3" qui se supprime tout en gardant le commit "I AM ERROR". J'ai 
+décidé de continuer les exercices après avoir discuté avec d'autres camarades qui me disaient que c'était bien ça
+qu'il fallait faire.
+
+
