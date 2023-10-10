@@ -29,3 +29,5 @@ Update : concluant !
 
 ## 04/10 - Troisième cours
 Je fais l'exercice de la séance 3
+
+## Je suis destiné à être détruit :((	
