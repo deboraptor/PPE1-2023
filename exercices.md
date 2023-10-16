@@ -41,4 +41,8 @@ avec cat mes deux fichiers étaient à la bonne version aussi. Ensuite, j’ai v
 créer un tag mais la console m’indique que je ne suis pas dans la même branche
 donc j’essaie de tout régler.
 - Le problème c’est qu'avec mon problème pour l’exercice 1 mon commit a toujours
-pour nom “I AM ERROR”
+pour nom “I AM ERROR”.
+
+## 11/10 - Cours 4
+A faire :
+- les exercices et créer un tag qu'on va déposer sur e-campus.
