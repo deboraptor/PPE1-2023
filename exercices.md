@@ -46,3 +46,10 @@ pour nom “I AM ERROR”.
 ## 11/10 - Cours 4
 A faire :
 - les exercices et créer un tag qu'on va déposer sur e-campus.
+
+Incompréhension de l'énoncé de la question : Écrire un script qui compte les 
+entités pour une année un type d’entité donnés en argument du programme.
+Qu'est-ce qu'une entité ? Update : je crois avoir compris.
+
+J'ai aussi eu du mal avec la syntaxe, une fois je n'avais pas mis d'espace après echo.
+Pour l'exercice 2 je n'ai pas réussi ce que je voulais faire.
