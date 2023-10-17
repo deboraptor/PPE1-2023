@@ -9,4 +9,4 @@ nb_location=$3
 classement=$(cat ann/$annee/$mois/* | egrep "Location" | cut -f 3 | sort | uniq -c | sort -nr | head -n $nb_location)
 
 # On l'affiche avec echo
-echo "Pour la date du $mois/$annee, les lieux les plus cités sont : $classement et il y en avait $nb_location."
+echo "Pour la date du $mois/$annee, les lieux les plus cités sont : $classement et il y en avait $nb_location.
