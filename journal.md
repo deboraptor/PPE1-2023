@@ -24,3 +24,7 @@ et moi aussi blablabla"
 J'ai eu beaucoup de mal pendant le cours à comprendre les commandes et les flux d'entrées-sorties. 
 - je découvre ls -l et ls -lh pour bien copmrendre la commande chmod +x.
 - je comprends un peu mieux les scripts sur bash, notamment les variables, les arguments et la syntaxe générale.
+
+## 18/10 - Cours 5
+J'ai voulu pull mais je n'ai pas pu parce que j'avais supprimé des fichiers directement dans dolphin et mon git n'était plus à jour.
+Et à ce moment-là j'ai essayé de faire les commandes que mon terminal me conseillait (git restore, rm, add) sauf que ça ne fonctionnait toujours pas. J'ai fais git status pour comprendre mieux, et là j'ai fais une terrible erreur : j'ai utilisé config pull.rebase false comme m'a conseillé git status. Sauf que je ne pouvais plus faire de git pull !! J'ai donc essayé config pull.rebase true sans savoir si ça existait. J'ai ensuite cherché sur git help (-replace-all, pull.rebase), puis sur internet (rebase --abort --skip) sans succès. J'ai essayé git fetch... et git reset --hard qui a fonctionné ! Cependant, le terminal n'agissait pas comme d'habitude donc j'ai un peu d'apprehénsion pour la prochaine fois.
