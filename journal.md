@@ -27,4 +27,26 @@ J'ai eu beaucoup de mal pendant le cours à comprendre les commandes et les flux
 
 ## 18/10 - Cours 5
 J'ai voulu pull mais je n'ai pas pu parce que j'avais supprimé des fichiers directement dans dolphin et mon git n'était plus à jour.
-Et à ce moment-là j'ai essayé de faire les commandes que mon terminal me conseillait (git restore, rm, add) sauf que ça ne fonctionnait toujours pas. J'ai fais git status pour comprendre mieux, et là j'ai fais une terrible erreur : j'ai utilisé config pull.rebase false comme m'a conseillé git status. Sauf que je ne pouvais plus faire de git pull !! J'ai donc essayé config pull.rebase true sans savoir si ça existait. J'ai ensuite cherché sur git help (-replace-all, pull.rebase), puis sur internet (rebase --abort --skip) sans succès. J'ai essayé git fetch... et git reset --hard qui a fonctionné ! Cependant, le terminal n'agissait pas comme d'habitude donc j'ai un peu d'apprehénsion pour la prochaine fois. 
+Et à ce moment-là j'ai essayé de faire les commandes que mon terminal me conseillait (git restore, rm, add) sauf que ça ne 
+fonctionnait toujours pas. J'ai fais git status pour comprendre mieux, et là j'ai fais une terrible erreur : j'ai utilisé 
+config pull.rebase false comme m'a conseillé git status. Sauf que je ne pouvais plus faire de git pull !! J'ai donc essayé 
+config pull.rebase true sans savoir si ça existait. J'ai ensuite cherché sur git help (-replace-all, pull.rebase), puis 
+sur internet (rebase --abort --skip) sans succès. J'ai essayé git fetch... et git reset --hard qui a fonctionné ! Cependant, 
+le terminal n'agissait pas comme d'habitude donc j'ai un peu d'apprehénsion pour la prochaine fois. 
+
+Udate : aucun soucis pour pull !
+
+J'ai eu du mal avec les expressions régulières notées entre doubles crochets. Comme il y avait un $ et un . dans
+mon expression régulière, je pensais que ça n'allait pas marcher et j'ai essayé de mettre des antislash pour
+contrer, sauf que ça ne marchait pas. Au final j'ai enlevé les antislash et c'est bon. 
+
+Mes questions principales sont :
+- Est-ce que c’est censé marcher pour les .txt?
+- Est-ce qu’on peut mettre deux conditions dans if ?
+Update : on peut mettre deux expression avec && (AND) et || (OR)
+
+J’avais uniquement mis le dossier ann dans mon chemin, et je pensais que c’était pour ça qu’il ne trouvait pas de .txt. 
+Or, en mettant le dossier txt ça me met zéro aussi, donc j’en ai conclu que c’était normal car il n’y en avait pas. 
+Mais ducou je ne comprends pas pourquoi dans la consigne on nous demandait de mettre le type de fichier. 
+Mettre * à la place ann ou de txt me donne plus de locations, je ne sais pas pourquoi alors que c’est censé prendre 
+uniquement des .ann et .txt.

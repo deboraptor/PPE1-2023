@@ -53,3 +53,21 @@ Qu'est-ce qu'une entité ? Update : je crois avoir compris.
 
 J'ai aussi eu du mal avec la syntaxe, une fois je n'avais pas mis d'espace après echo.
 Pour l'exercice 2 je n'ai pas réussi ce que je voulais faire.
+
+## 25/10 - Cours 5
+Lire et expliquer ce code : 
+Ce code permet de savoir si une chaîne de caractères correspond à un lien ou non.
+La condition if vérifie si l’utilisateur entre 1 argument ou pas, (nombre 
+d'argument(s) entré(s) → not equal à 1). S’il n’y a pas un argument, on envoie 
+“ce programme demande un argument” à l’utilisateur et on quitte le programme.
+Ensuite on crée l’argument FICHIER_URL et on  met à valeur 0 OK(pour okay) et NOK
+(pour not okay). La boucle while lit la ligne grâce à read -r LINE et affiche la 
+ligne avec echo “la ligne: $LINE” et vérifie grâce à l’expression régulière 
+[[ $LINE =∼ ^ https ?:// ]] si ça ressemble à une URL. Si la ligne correspond à 
+l’expression régulière, on affiche “ressemble à une URL valide” et on ajoute 1 
+à la valeur de OK, sinon on affiche “ne ressemble pas à un URL valide” et on 
+ajoute 1 à NOK.
+
+
+Avec le dernier echo on affiche le nombre de lignes qui sont okay avec OK et celles qui ne correspondent pas à une URL avec NOK. 
+
