@@ -43,6 +43,9 @@ contrer, sauf que ça ne marchait pas. Au final j'ai enlevé les antislash et c'
 Mes questions principales sont :
 - Est-ce que c’est censé marcher pour les .txt?
 - Est-ce qu’on peut mettre deux conditions dans if ?
+- Ça correspond à quoi exactement # !/ usr / bin / bash
+- À quoi servent les ; 
+- Est-ce une convention de mettre les arguments et les variables en caps lock ?
 Update : on peut mettre deux expression avec && (AND) et || (OR)
 
 J’avais uniquement mis le dossier ann dans mon chemin, et je pensais que c’était pour ça qu’il ne trouvait pas de .txt. 
