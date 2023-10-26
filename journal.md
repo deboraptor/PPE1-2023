@@ -53,3 +53,7 @@ Or, en mettant le dossier txt ça me met zéro aussi, donc j’en ai conclu que 
 Mais ducou je ne comprends pas pourquoi dans la consigne on nous demandait de mettre le type de fichier. 
 Mettre * à la place ann ou de txt me donne plus de locations, je ne sais pas pourquoi alors que c’est censé prendre 
 uniquement des .ann et .txt.
+
+## 25/10 - Cours 6
+J'ai encore eu un problème pour pull mais en relisant mon journal j'ai lu que git reset --hard marchait donc j'ai
+directement fait ça et c'était bon.

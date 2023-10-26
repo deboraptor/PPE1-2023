@@ -10,7 +10,7 @@ then
     echo "Ce programme demande 2 arguments."
     exit
 fi
-if [[ $1 =~ 201[678] ]] && [[ $2 =~ .(ann|txt) ]]
+if [[ $1 =~ 201[678] ]] && [[ $2 =~ .(ann|txt)$ ]]
 then
     echo "Les locations pour l'année $annee sont de : $nb_entite et ce sont des données en $type."
 else
