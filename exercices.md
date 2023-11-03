@@ -73,7 +73,7 @@ Avec le dernier echo on affiche le nombre de lignes qui sont okay avec OK et
 celles qui ne correspondent pas à une URL avec NOK. 
 
 ## 08/11 - Cours 6
-# Miniprojet
+### Miniprojet
 Exercice 1 :
 - comment faire une tabulation ? J'ai trouvé \t mais ça l'affiche sur le terminal sans 
 faire de tabulation.
