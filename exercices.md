@@ -72,10 +72,20 @@ ajoute 1 à NOK.
 Avec le dernier echo on affiche le nombre de lignes qui sont okay avec OK et 
 celles qui ne correspondent pas à une URL avec NOK. 
 
+## 08/11 - Cours 6
 # Miniprojet
 Exercice 1 :
 - comment faire une tabulation ? J'ai trouvé \t mais ça l'affiche sur le terminal sans 
 faire de tabulation.
+Update : il fallait faire en sorte que le / passe en caractère spécial
+avec un -e.
 
 Exercice 2 :
+- On peut faire en sorte que le script reconnaisse une url valide en réutilisant le
+script du cours 5, mais on va devoir le modifier car dans la liste du document 
+fr.txt il y a une url qui commence par fr.wikipedia.org. Mon idée est donc de faire
+une expression régulière avec les extensions, il va donc falloir que je cherche une
+liste sur internet de toutes les extensions possible pour faire un RegEx avec.
+Dans l'immédiat je me dis que je peux le faire uniquement pour les fichier de
+fr.txt et le faire pour la prochaine fois.
 
