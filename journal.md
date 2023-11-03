@@ -57,3 +57,7 @@ uniquement des .ann et .txt.
 ## 25/10 - Cours 6
 J'ai encore eu un problème pour pull mais en relisant mon journal j'ai lu que git reset --hard marchait donc j'ai
 directement fait ça et c'était bon.
+
+J'aurais pas dû mettre de chiffre dans mon mot de passe de clé SSH, comme j'utilise tout le temps mon numpad à 
+droite, le verr num s'active tout le temps et comme on voit pas si on entre un caractère, je dois retaper mon 
+mot de passe à chaque fois...
