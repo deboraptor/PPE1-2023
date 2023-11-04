@@ -88,4 +88,5 @@ une expression régulière avec les extensions, il va donc falloir que je cherch
 liste sur internet de toutes les extensions possible pour faire un RegEx avec.
 Dans l'immédiat je me dis que je peux le faire uniquement pour les fichier de
 fr.txt et le faire pour la prochaine fois.
-
+- cut --help
+- afficher le code et l'encodage = boucle ? comment faire une boucle dans une variable ?
