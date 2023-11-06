@@ -90,3 +90,6 @@ Dans l'immédiat je me dis que je peux le faire uniquement pour les fichier de
 fr.txt et le faire pour la prochaine fois.
 - cut --help
 - afficher le code et l'encodage = boucle ? comment faire une boucle dans une variable ?
+
+Bloquée pour afficher l'encodage et le code HTTP...
+Update : je ne voyais pas les messages d'erreurs sur vscode !! 
