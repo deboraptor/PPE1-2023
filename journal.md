@@ -29,6 +29,10 @@ J'ai eu beaucoup de mal pendant le cours à comprendre les commandes et les flux
 - je comprends un peu mieux les scripts sur bash, notamment les variables, les arguments et la syntaxe générale.
 
 ## 18/10 - Cours 5
+### Projet en groupe
+J'ai enfin trouvé mon groupe ! Je serai donc en trinome avec Clara Sachot et Marial Hul.
+
+
 J'ai voulu pull mais je n'ai pas pu parce que j'avais supprimé des fichiers directement dans dolphin et mon git 
 n'était plus à jour. Et à ce moment-là j'ai essayé de faire les commandes que mon terminal me conseillait (git 
 restore, rm, add) sauf que ça ne fonctionnait toujours pas. J'ai fais git status pour comprendre mieux, et là 
@@ -59,6 +63,11 @@ Mettre * à la place ann ou de txt me donne plus de locations, je ne sais pas po
 uniquement des .ann et .txt.
 
 ## 25/10 - Cours 6
+### Projet en groupe
+Nous avons pensé à quelques mots dont "motivation" et "procrastination", "ségrégation" puis "envahisseur".
+Comme nous avons trois langues de trois continents différents dans notre groupe (anglais us, polonais et coréen),
+on aimerait en faire une force et trouver un mot qui va pouvoir nous montrer toutes les différences culturelles.
+
 J'ai encore eu un problème pour pull mais en relisant mon journal j'ai lu que git reset --hard marchait donc j'ai
 directement fait ça et c'était bon.
 
@@ -69,3 +78,11 @@ mot de passe à chaque fois...
 Je ne comprends pas pourquoi j'ai ce fichier .exercices.md.swp qui est apparu dans mon git. D'après le commit
 associé, il a été créé avec mon ajout de séance 5, sauf que je ne comprend pas l'extension .md.swp. Aussi, je
 vois qu'il y a un point au début donc je sais que c'est un fichier caché. 
+
+## 08/11 - Cours 7 
+### Projet en groupe
+On essaie de trouver un autre mot que "ségragation" ou "envahisseur" car on a peur que ce soit trop axé sur
+l'histoire.
+
+
+Découvertes des bookmarks pour naviguer plus vite et de shellcheck qui me sauve la vie.
