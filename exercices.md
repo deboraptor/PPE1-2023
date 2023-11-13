@@ -93,3 +93,13 @@ fr.txt et le faire pour la prochaine fois.
 
 Bloquée pour afficher l'encodage et le code HTTP...
 Update : je ne voyais pas les messages d'erreurs sur vscode !! 
+
+## 15/11 - Cours 7
+### Miniprojet v2
+J'ai eu du mal avec les sorties pour la question 4 de l'exercice 1. 
+- comment faire un argument optionnel ? J'ai eu l'idée de faire [ "$#" -lt 1 ] pour "plus
+petit que". Update : ça marche !! 
+- j'ai découvert $0 ! Je l'utilise alors pour echo une phrase qui indique comment utiliser
+le script.
+- j'utilise shellcheck et c'est très partique !
+- paste sert à combiner chaque ligne de mots avec la ligne suivante
