@@ -103,3 +103,6 @@ petit que". Update : ça marche !!
 le script.
 - j'utilise shellcheck et c'est très partique !
 - paste sert à combiner chaque ligne de mots avec la ligne suivante
+
+Update : en fait j'avais loupé un truc dans la consigne, et maintenant mon script ne 
+fonctionne plus comme avant, il va falloir que je corrige ça.

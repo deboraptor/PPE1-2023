@@ -1,9 +1,8 @@
 #!/usr/bin/bash
 
-# on cherche à vérifier si l'argument est bien un fichier
-if [ ! -f "$1" ] 
+if [ ! -f "$1"]
 then 
-    echo "Il faut un fichier en argument !"
+    echo "Pas de fichier donné en argument."
     exit 1
 fi
 

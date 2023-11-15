@@ -90,4 +90,7 @@ Découvertes des bookmarks pour naviguer plus vite et de shellcheck qui me sauve
 ## 15/11 - Cours 8
 ### Projet en groupe
 Au final, notre mot va être "lien".
+
 J'ai modifié toute mon arborescence de fichiers, j'ai appris à renommer un fichier ou un dossier.
+Je viens de me rendre compte que j'ai loupé une ligne dans la consigne donc mon script est pas
+ce qui était attendu..

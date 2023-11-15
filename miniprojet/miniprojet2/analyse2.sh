@@ -1,9 +1,17 @@
 #!/usr/bin/bash
 
 # chemin du fichier "./candide.txt"
-fichier=$1
+fichier="$1"
 # le nombre de mots qu'on souhaite afficher, optionnel (par défaut 25)
 mots=${2:-25}
+
+# on cherche à vérifier si l'argument est bien un fichier
+if [ ! -f "$1" ] 
+then 
+    echo "Il faut un fichier en argument !
+Usage : $0 ./candide.txt [nombre de mots que vous voulez afficher]"
+    exit 1
+fi
 
 # vérifier les arguments et en mettre un optionnel
 if [ "$#" -lt 1 ]
@@ -17,5 +25,5 @@ fi
 # \w word character : lettres, underscore et chiffres
 # on nettoie le texte : tr 
 # -d '[:punct:]' pour supprimer la ponctuation | on transforme tout en minuscule
-resultat=$(grep -o -w '\w*' "$fichier" | tr -d '[:punct:]' | tr '[:upper:]' '[:lower:]' | head -n "$mots")
+resultat=$(grep -o -w '\w*' "$1" | tr -d '[:punct:]' | tr '[:upper:]' '[:lower:]')
 echo "$resultat"
