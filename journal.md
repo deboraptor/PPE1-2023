@@ -81,7 +81,7 @@ vois qu'il y a un point au début donc je sais que c'est un fichier caché.
 
 ## 08/11 - Cours 7 
 ### Projet en groupe
-On essaie de trouver un autre mot que "ségragation" ou "envahisseur" car on a peur que ce soit trop axé sur
+On essaie de trouver un autre mot que "ségrégation" ou "envahisseur" car on a peur que ce soit trop axé sur
 l'histoire.
 
 
@@ -89,8 +89,10 @@ Découvertes des bookmarks pour naviguer plus vite et de shellcheck qui me sauve
 
 ## 15/11 - Cours 8
 ### Projet en groupe
-Au final, notre mot va être "lien".
+Au final, notre mot va être "lien"... Cela dit je le trouve moins intéressant que ségrégation mais mes camarades
+sont pas convaincues..
 
 J'ai modifié toute mon arborescence de fichiers, j'ai appris à renommer un fichier ou un dossier.
 Je viens de me rendre compte que j'ai loupé une ligne dans la consigne donc mon script est pas
 ce qui était attendu..
+

@@ -106,3 +106,8 @@ le script.
 
 Update : en fait j'avais loupé un truc dans la consigne, et maintenant mon script ne 
 fonctionne plus comme avant, il va falloir que je corrige ça.
+
+## 22/11 - Cours 8 
+### html
+J'ai rattrapé l'exercice d'html que j'avais oublié de faire et je me lance dans la
+réalisation de mon site github.
