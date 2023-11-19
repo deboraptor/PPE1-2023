@@ -5,7 +5,7 @@
     <title>Mini-projet</title>
     <style>
 		body {
-            background-color: rgb(241, 195, 241); /* Remplacez cette valeur par la couleur de fond que vous souhaitez */
+            background-color: rgb(241, 195, 241); 
         }
 
         h1 {
@@ -13,6 +13,7 @@
             padding: 10px;
             display: inline-block;
             text-align: center;
+            background-color: rgb(161, 204, 240);
         }
 
         table {
@@ -34,11 +35,18 @@
         td {
             background-color: #ffc0cb;
         }
+
+        select {
+            padding: 5px;
+            font-size: 16px;
+            border: 1px solid #f5c8c8;
+            border-radius: 4px;
+        }
+
     </style>
 </head>
 <body>
     <h1>Page de présentation de mon mini-projet</h1>
-
     <div class="field has-addons">
         <div class="control is-expanded">
             <div class="select is-fullwidth">
@@ -50,16 +58,14 @@
             </div>
         </div>
     </div>
+    <div id="content"></div>
     <script>
         function changeContent() {
-            // Obtenez la valeur sélectionnée
             var selectedValue = document.getElementById("selectOption").value;
-
-            // Mettez à jour le contenu en fonction de la valeur sélectionnée
             var contentDiv = document.getElementById("content");
             switch (selectedValue) {
                 case "Home":
-                    contentDiv.innerHTML = "<p>Bienvenue sur mon miniprojet !!!</p>\
+                    contentDiv.innerHTML = "<h2>Bienvenue sur mon miniprojet !!!</h2>\
 											<img src='coucou.png' alt='Bienvenue Image'>";
                     break;
                 case "Tableau":
@@ -71,37 +77,37 @@
                                                     <th>Encodage</th>\
                                                 </tr>\
                                                 <tr>\
-                                                    <td>0</td>\
+                                                    <td>1</td>\
                                                     <td><a href='https://fr.wikipedia.org/wiki/Robot'>https://fr.wikipedia.org/wiki/Robot</a></td>\
                                                     <td></td>\
                                                     <td></td>\
                                                 </tr>\
                                                 <tr>\
-                                                    <td>1</td>\
+                                                    <td>2</td>\
                                                     <td><a href='https://fr.wikipedia.org/wiki/Robot_de_cuisine'>https://fr.wikipedia.org/wiki/Robot_de_cuisine</a></td>\
                                                     <td>200</td>\
                                                     <td>UTF-8</td>\
                                                 </tr>\
                                                 <tr>\
-                                                    <td>2</td>\
+                                                    <td>3</td>\
                                                     <td><a href='fr.wikipedia.org/wiki/Robot_d%27indexation'>fr.wikipedia.org/wiki/Robot_d%27indexation</a></td>\
                                                     <td>200</td>\
                                                     <td>UTF-8</td>\
                                                 </tr>\
                                                 <tr>\
-                                                    <td>3</td>\
+                                                    <td>4</td>\
                                                     <td><a href='https://fr.wikipedia.org/wiki/Bot_informatique'>https://fr.wikipedia.org/wiki/Bot_informatique</a></td>\
                                                     <td>301</td>\
                                                     <td></td>\
                                                 </tr>\
                                                 <tr>\
-                                                    <td>4</td>\
+                                                    <td>5</td>\
                                                     <td><a href='https://fr.wikipedia.org/wiki/Robot_(Leonard_de_Vinci)'>https://fr.wikipedia.org/wiki/Robot_(Leonard_de_Vinci)</a></td>\
                                                     <td>200</td>\
                                                     <td>UTF-8</td>\
                                                 </tr>\
                                                 <tr>\
-                                                    <td>5</td>\
+                                                    <td>6</td>\
                                                     <td><a href='https://roboty.magistry.fr'>https://roboty.magistry.fr</a></td>\
                                                     <td>404</td>\
                                                     <td>UTF-8</td>\
@@ -109,7 +115,7 @@
                                             </table>";
                     break;
                 case "Qui-suis-je?":
-                    contentDiv.innerHTML = "<p>Contenu pour la page 'Qui suis-je?'</p>";
+                    contentDiv.innerHTML = "<p>Moi c'est Débora</p>";
                     break;
                 default:
                     contentDiv.innerHTML = "";
