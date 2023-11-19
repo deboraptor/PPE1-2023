@@ -94,5 +94,5 @@ sont pas convaincues..
 
 J'ai modifié toute mon arborescence de fichiers, j'ai appris à renommer un fichier ou un dossier.
 Je viens de me rendre compte que j'ai loupé une ligne dans la consigne donc mon script est pas
-ce qui était attendu..
+ce qui était attendu.. J'ai aussi oublié qu'il fallait faire le code html mais j'ai pu le rattraper en cours.
 
