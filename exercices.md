@@ -110,4 +110,7 @@ fonctionne plus comme avant, il va falloir que je corrige ça.
 ## 22/11 - Cours 8 
 ### html
 J'ai rattrapé l'exercice d'html que j'avais oublié de faire et je me lance dans la
-réalisation de mon site github.
+réalisation de mon site github. J'ai ajouté du JavaScript pour changer de page "Home",
+"Tableau" et "Qui suis-je?" en faisant des recherches sur internet. J'ai aussi 
+essayé de comprendre bulma et j'ai changé le visuel un peu.
+
