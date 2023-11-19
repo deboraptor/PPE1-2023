@@ -114,3 +114,6 @@ réalisation de mon site github. J'ai ajouté du JavaScript pour changer de page
 "Tableau" et "Qui suis-je?" en faisant des recherches sur internet. J'ai aussi 
 essayé de comprendre bulma et j'ai changé le visuel un peu.
 
+J'ai mis un menu déroulant pour selectionner une page mais elle est vide quand j'ouvre
+la page et ne s'actualise que si je change de site, je ne sais pas comment faire pour
+changer ça. Udpadete : fixé avec <body on load="changeContent()"> 

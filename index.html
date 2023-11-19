@@ -45,7 +45,7 @@
 
     </style>
 </head>
-<body>
+<body onload="changeContent()">
     <h1>Page de présentation de mon mini-projet</h1>
     <div class="field has-addons">
         <div class="control is-expanded">
@@ -115,7 +115,8 @@
                                             </table>";
                     break;
                 case "Qui-suis-je?":
-                    contentDiv.innerHTML = "<p>Moi c'est Débora</p>";
+                    contentDiv.innerHTML = "<p>Moi c'est Débora</p>\
+                                                <p>Binzour</p>";
                     break;
                 default:
                     contentDiv.innerHTML = "";
